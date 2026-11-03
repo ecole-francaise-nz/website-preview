@@ -1,0 +1,42 @@
+baseURL = 'https://ecole-francaise.nz/'
+locale = 'en-nz'
+title = 'École Française Internationale Auckland'
+
+defaultContentLanguage = "en"
+enableRobotsTXT = true
+
+[languages]
+[languages.en]
+title = "École Française Internationale Auckland"
+weight = 1
+contentDir = "content/en"
+[languages.en.params]
+flag = "🇳🇿"
+description = "Auckland French International School"
+
+[languages.fr]
+title = "École Française Internationale Auckland"
+weight = 2
+contentDir = "content/fr"
+[languages.fr.params]
+flag = "🇫🇷"
+description = "École Française Internationale Auckland"
+
+
+[sitemap]
+changefreq = "monthly"
+priority = 0.5
+filename = "sitemap.xml"
+
+[params]
+logo = "/images/efia-logo5.png"
+copyrightYears = 2024
+themeColor = "blue"
+bannerHeight = "200px"
+author = ["EFIA"]
+
+[social]
+twitter = "afauckland"
+
+[outputs]
+home = ["HTML", "RSS", "JSON"]

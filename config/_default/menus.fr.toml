@@ -1,0 +1,149 @@
+[[main]]
+name = "Notre \u00e9cole"
+identifier = "nav0"
+url = "/fr/about/"
+weight = 100
+
+[[main]]
+name = "Notre \u00e9quipe"
+parent = "nav0"
+url = "/fr/about/team/"
+weight = 1
+
+[[main]]
+name = "Notre campus"
+parent = "nav0"
+url = "/fr/about/premises/"
+weight = 2
+
+[[main]]
+name = "Vision et valeurs"
+parent = "nav0"
+url = "/fr/about/vision-and-values/"
+weight = 3
+
+[[main]]
+name = "Gouvernance et rapports"
+parent = "nav0"
+url = "/fr/about/governance/"
+weight = 4
+
+[[main]]
+name = "P\u00e9dagogie"
+identifier = "nav1"
+url = "/fr/learning/"
+weight = 200
+
+[[main]]
+name = "Programme"
+parent = "nav1"
+url = "/fr/learning/french-curriculum/"
+weight = 1
+
+[[main]]
+name = "Bilinguisme"
+parent = "nav1"
+url = "/fr/learning/bilingualism/"
+weight = 2
+
+[[main]]
+name = "Homologation AEFE"
+parent = "nav1"
+url = "/fr/learning/aefe/"
+weight = 3
+
+[[main]]
+name = "Activit\u00e9s et sport"
+parent = "nav1"
+url = "/fr/sports/"
+weight = 4
+
+[[main]]
+name = "Parents"
+identifier = "nav2"
+url = "/fr/school-life/"
+weight = 300
+
+[[main]]
+name = "Calendrier et horaires"
+parent = "nav2"
+url = "/fr/school-life/term-dates-and-school-times/"
+weight = 1
+
+[[main]]
+name = "Uniforme scolaire"
+parent = "nav2"
+url = "/fr/school-life/school-uniform/"
+weight = 2
+
+[[main]]
+name = "Uniforme et fournitures"
+parent = "nav2"
+url = "/fr/school-life/uniform-and-supplies/"
+weight = 3
+
+[[main]]
+name = "Avant et apr\u00e8s l\u2019\u00e9cole"
+parent = "nav2"
+url = "/fr/school-life/before-and-after-school/"
+weight = 4
+
+[[main]]
+name = "Politiques et accompagnement"
+parent = "nav2"
+url = "/fr/school-life/policies-and-procedures/"
+weight = 5
+
+[[main]]
+name = "Admissions"
+identifier = "nav3"
+url = "/fr/admissions/"
+weight = 400
+
+[[main]]
+name = "Comment s\u2019inscrire"
+parent = "nav3"
+url = "/fr/enrolment/"
+weight = 1
+
+[[main]]
+name = "\u00c9l\u00e8ves internationaux"
+parent = "nav3"
+url = "/fr/international-students/"
+weight = 2
+
+[[main]]
+name = "Co\u00fbts et pr\u00e9paration"
+parent = "nav3"
+url = "/fr/admissions/costs/"
+weight = 3
+
+[[main]]
+name = "Questions fr\u00e9quentes"
+parent = "nav3"
+url = "/fr/about/faq/"
+weight = 4
+
+[[main]]
+name = "Communaut\u00e9"
+identifier = "nav4"
+url = "/fr/community/"
+weight = 500
+
+[[main]]
+name = "Actualit\u00e9s et lettres d\u2019information"
+parent = "nav4"
+url = "/fr/school-life/news/"
+weight = 1
+
+[[main]]
+name = "Alliance Fran\u00e7aise"
+parent = "nav4"
+url = "/fr/school-life/afa-membership/"
+weight = 2
+
+[[main]]
+name = "Soutenir notre \u00e9cole"
+parent = "nav4"
+url = "/fr/school-life/donations/"
+weight = 3

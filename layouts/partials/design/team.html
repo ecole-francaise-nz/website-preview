@@ -1,0 +1,20 @@
+<div class="team-grid">
+  {{ range .Params.people }}
+    <article class="person-card">
+      {{ if .image }}
+        {{ $portrait := resources.Get .image }}
+        <div class="person-portrait portrait-{{ .portrait }}">
+          <img src="{{ $portrait.RelPermalink }}" alt="{{ .name }}" loading="lazy" decoding="async">
+        </div>
+      {{ else }}
+        <div class="person-portrait portrait-initials" aria-hidden="true">{{ .initials }}</div>
+      {{ end }}
+      <div class="person-copy">
+        <p class="eyebrow">{{ .role }}</p>
+        <h2>{{ .name }}</h2>
+        <p>{{ .intro }}</p>
+      </div>
+    </article>
+  {{ end }}
+</div>
+<article class="prose hub-detail">{{ .Content }}</article>

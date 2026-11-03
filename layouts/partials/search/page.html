@@ -1,0 +1,19 @@
+{{- $html := partial "page-content.html" . | string -}}
+{{- $records := slice (dict "text" .Title "anchor" "" "heading" .Title) -}}
+{{- $heading := .Title -}}
+{{- range $i, $block := findRE `(?s)<(?:h[1-6]|p|li|summary|td|figcaption)\b[^>]*>.*?</(?:h[1-6]|p|li|summary|td|figcaption)>` $html -}}
+  {{- $text := $block | replaceRE `<[^>]+>` " " | htmlUnescape | replaceRE `\s+` " " | strings.TrimSpace -}}
+  {{- if $text -}}
+    {{- $opening := index (findRE `^[^>]+>` $block) 0 -}}
+    {{- $id := printf "search-%d" $i -}}
+    {{- if findRE `\bid="[^"]+"` $opening -}}
+      {{- $id = replaceRE `.*\bid="([^"]+)".*` "$1" $opening -}}
+    {{- else -}}
+      {{- $replacement := replace $block $opening (replace $opening ">" (printf ` id="%s">` $id)) 1 -}}
+      {{- $html = replace $html $block $replacement 1 -}}
+    {{- end -}}
+    {{- if findRE `^<(?:h[1-6]|summary)\b` $block }}{{ $heading = $text }}{{ end -}}
+    {{- $records = $records | append (dict "text" $text "anchor" $id "heading" $heading) -}}
+  {{- end -}}
+{{- end -}}
+{{- return (dict "html" $html "passages" $records) -}}

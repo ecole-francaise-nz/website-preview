@@ -1,0 +1,1 @@
+{{ $ui := index hugo.Data.interface .Lang }}<div class="card-grid">{{ range .Params.cards }}{{ partial "card.html" (merge . (dict "externalLabel" $ui.external)) }}{{ end }}</div>{{ with .Content }}<article class="prose hub-detail">{{ . }}</article>{{ end }}

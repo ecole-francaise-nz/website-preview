@@ -1,0 +1,9 @@
+*.lock
+/.bak
+.DS_Store
+/public
+/resources
+/node_modules
+/.cache
+old/
+

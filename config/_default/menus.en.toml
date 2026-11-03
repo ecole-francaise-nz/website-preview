@@ -1,0 +1,149 @@
+[[main]]
+name = "Our school"
+identifier = "nav0"
+url = "/about/"
+weight = 100
+
+[[main]]
+name = "Meet our team"
+parent = "nav0"
+url = "/about/team/"
+weight = 1
+
+[[main]]
+name = "Our campus"
+parent = "nav0"
+url = "/about/premises/"
+weight = 2
+
+[[main]]
+name = "Vision & values"
+parent = "nav0"
+url = "/about/vision-and-values/"
+weight = 3
+
+[[main]]
+name = "Governance & reports"
+parent = "nav0"
+url = "/about/governance/"
+weight = 4
+
+[[main]]
+name = "Learning"
+identifier = "nav1"
+url = "/learning/"
+weight = 200
+
+[[main]]
+name = "Curriculum"
+parent = "nav1"
+url = "/learning/french-curriculum/"
+weight = 1
+
+[[main]]
+name = "Bilingual learning"
+parent = "nav1"
+url = "/learning/bilingualism/"
+weight = 2
+
+[[main]]
+name = "AEFE accreditation"
+parent = "nav1"
+url = "/learning/aefe/"
+weight = 3
+
+[[main]]
+name = "Enrichment & sport"
+parent = "nav1"
+url = "/sports/"
+weight = 4
+
+[[main]]
+name = "Parents"
+identifier = "nav2"
+url = "/school-life/"
+weight = 300
+
+[[main]]
+name = "Dates & hours"
+parent = "nav2"
+url = "/school-life/term-dates-and-school-times/"
+weight = 1
+
+[[main]]
+name = "School uniform"
+parent = "nav2"
+url = "/school-life/school-uniform/"
+weight = 2
+
+[[main]]
+name = "Uniform & supplies"
+parent = "nav2"
+url = "/school-life/uniform-and-supplies/"
+weight = 3
+
+[[main]]
+name = "Before & after school"
+parent = "nav2"
+url = "/school-life/before-and-after-school/"
+weight = 4
+
+[[main]]
+name = "Policies & support"
+parent = "nav2"
+url = "/school-life/policies-and-procedures/"
+weight = 5
+
+[[main]]
+name = "Admissions"
+identifier = "nav3"
+url = "/admissions/"
+weight = 400
+
+[[main]]
+name = "How to enrol"
+parent = "nav3"
+url = "/enrolment/"
+weight = 1
+
+[[main]]
+name = "International students"
+parent = "nav3"
+url = "/international-students/"
+weight = 2
+
+[[main]]
+name = "Costs & preparation"
+parent = "nav3"
+url = "/admissions/costs/"
+weight = 3
+
+[[main]]
+name = "FAQs"
+parent = "nav3"
+url = "/about/faq/"
+weight = 4
+
+[[main]]
+name = "Community"
+identifier = "nav4"
+url = "/community/"
+weight = 500
+
+[[main]]
+name = "News & newsletters"
+parent = "nav4"
+url = "/school-life/news/"
+weight = 1
+
+[[main]]
+name = "Alliance Fran\u00e7aise"
+parent = "nav4"
+url = "/school-life/afa-membership/"
+weight = 2
+
+[[main]]
+name = "Support our school"
+parent = "nav4"
+url = "/school-life/donations/"
+weight = 3

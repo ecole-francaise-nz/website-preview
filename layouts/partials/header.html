@@ -1,0 +1,23 @@
+{{ if .Site.Params.staffPreview }}<div class="staff-preview-banner">{{ if eq .Lang "fr" }}Version de démonstration pour l’équipe — ce site n’est pas la version officielle en ligne.{{ else }}Staff review preview — this is not the live school website.{{ end }}</div>{{ end }}
+{{ $ui := index hugo.Data.interface .Lang }}
+<a class="skip-link" href="#main-content">{{ $ui.skip }}</a>
+<header class="site-header">
+  <div class="utility-bar"><div class="shell"><span>{{ if eq .Lang "fr" }}Une école française, un esprit kiwi{{ else }}A French education. A Kiwi spirit.{{ end }}</span><div><a href="{{ "/contact/" | relLangURL }}">{{ $ui.contact }}</a><span class="utility-divider" aria-hidden="true">/</span><nav aria-label="{{ $ui.language }}" class="language-switcher">{{ range hugo.Sites }}{{ $lang := .Language.Lang }}{{ $url := .Home.RelPermalink }}{{ range $.Translations }}{{ if eq .Lang $lang }}{{ $url = .RelPermalink }}{{ end }}{{ end }}{{ if eq $lang $.Lang }}{{ $url = $.RelPermalink }}{{ end }}<a href="{{ $url }}" lang="{{ $lang }}" hreflang="{{ $lang }}" {{ if eq $lang $.Lang }}aria-current="true"{{ end }}>{{ if eq $lang "fr" }}Français{{ else }}English{{ end }}</a>{{ end }}</nav></div></div></div>
+  <div class="shell header-main">
+    <a class="brand" href="{{ .Site.Home.RelPermalink }}"><img src="{{ .Site.Params.logo }}" width="64" height="64" alt=""><span>École Française<span>Internationale Auckland</span></span></a>
+    <button class="menu-toggle" type="button" aria-expanded="false" aria-controls="main-navigation">{{ $ui.menu }} <span aria-hidden="true">☰</span></button>
+    <nav id="main-navigation" class="main-navigation" aria-label="{{ $ui.menu }}">
+      {{ range $i, $item := .Site.Menus.main }}<div class="nav-group"><div class="nav-label"><a href="{{ .URL }}" {{ if eq $.RelPermalink .URL }}aria-current="page"{{ end }}>{{ .Name }}</a>{{ if .HasChildren }}<button type="button" class="submenu-toggle" aria-label="{{ .Name }} — {{ $ui.menu }}" aria-controls="submenu-{{ $i }}" aria-expanded="false"><span aria-hidden="true">⌄</span></button>{{ end }}</div>{{ if .HasChildren }}<div class="submenu" id="submenu-{{ $i }}" hidden><a class="submenu-overview" href="{{ .URL }}">{{ $ui.overview }} <span aria-hidden="true">→</span></a>{{ range .Children }}<a href="{{ .URL }}">{{ .Name }}</a>{{ end }}</div>{{ end }}</div>{{ end }}
+      <a class="button button-small" href="{{ "/enrolment/" | relLangURL }}">{{ $ui.enrol }} <span aria-hidden="true">↗</span></a>
+      <button class="search-toggle" id="site-search-toggle" type="button" aria-controls="site-search-panel" aria-expanded="false" aria-label="{{ $ui.search }}"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><circle cx="10.5" cy="10.5" r="6.5"/><path d="m16 16 5 5"/></svg></button>
+    </nav>
+  </div>
+  <div id="site-search-panel" data-index="{{ .Site.Home.RelPermalink }}index.json" hidden>
+    <form class="shell search-form" role="search">
+      <label for="site-search-query">{{ $ui.search }}</label>
+      <input id="site-search-query" type="search" name="q" autocomplete="off" aria-describedby="search-status" aria-controls="search-results" placeholder="{{ if eq .Lang "fr" }}Rechercher dans le site…{{ else }}Search the website…{{ end }}">
+      <button class="button" type="submit">{{ $ui.searchButton }}</button>
+    </form>
+    <div class="shell search-output"><p id="search-status" role="status" aria-live="polite"></p><ol id="search-results" class="search-results"></ol></div>
+  </div>
+</header>
