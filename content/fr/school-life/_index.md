@@ -9,11 +9,6 @@
       "url": "/fr/school-life/term-dates-and-school-times/"
     },
     {
-      "url": "/fr/school-life/school-uniform/",
-      "description": "Les tenues de l’école, en images. Choisissez une photo pour l’agrandir.",
-      "title": "Uniforme scolaire"
-    },
-    {
       "title": "Uniforme et fournitures",
       "description": "Photos des uniformes, fournitures et équipement numérique.",
       "url": "/fr/school-life/uniform-and-supplies/",

@@ -71,12 +71,6 @@ url = "/school-life/term-dates-and-school-times/"
 weight = 1
 
 [[main]]
-name = "School uniform"
-parent = "nav2"
-url = "/school-life/school-uniform/"
-weight = 2
-
-[[main]]
 name = "Uniform & supplies"
 parent = "nav2"
 url = "/school-life/uniform-and-supplies/"

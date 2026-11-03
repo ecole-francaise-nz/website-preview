@@ -9,11 +9,6 @@
       "url": "/school-life/term-dates-and-school-times/"
     },
     {
-      "url": "/school-life/school-uniform/",
-      "description": "A visual guide to what we wear at school. Select any photo for a closer look.",
-      "title": "School uniform"
-    },
-    {
       "title": "Uniform & supplies",
       "description": "Uniform photos, stationery and device requirements.",
       "url": "/school-life/uniform-and-supplies/",
