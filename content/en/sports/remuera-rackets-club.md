@@ -1,5 +1,5 @@
 +++
-title = 'Remuera Rackets Club'
+title = "Tennis & activity"
 hero = "/images/sports-banner.jpg"
 bannerHeight = "450px"
 +++

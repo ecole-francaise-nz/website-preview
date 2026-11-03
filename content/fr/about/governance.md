@@ -8,11 +8,6 @@
       "url": "/fr/about/board-of-trustees/"
     },
     {
-      "title": "Organigramme",
-      "description": "L’organisation de notre école.",
-      "url": "/fr/documents/governance/efia-org-chart-fr-term-2-2026.pdf"
-    },
-    {
       "title": "Rapport annuel · 2025",
       "description": "Le bilan de l’année de notre école.",
       "url": "/fr/about/annual-report-2025/"
@@ -36,12 +31,14 @@
       "title": "Le modèle Charter School",
       "description": "Comprendre le fonctionnement de notre école.",
       "url": "/en/documents/governance/efia-and-the-charter-school-model.pdf"
-    },
+    }
+  ],
+  "design": "hub",
+  "see_also": [
     {
-      "title": "Politiques et procédures",
+      "title": "Politiques et accompagnement",
       "description": "Accédez aux politiques et documents publics.",
       "url": "/fr/school-life/policies-and-procedures/"
     }
-  ],
-  "design": "hub"
+  ]
 }

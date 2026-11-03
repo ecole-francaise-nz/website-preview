@@ -1,5 +1,5 @@
 +++
-title = "Adhésion à l'Alliance Française Auckland"
+title = "Alliance Française"
 hero = "/images/afa-membership-banner.jpg"
 bannerHeight = "450px"
 date = 2025-01-11T12:24:00+12:00

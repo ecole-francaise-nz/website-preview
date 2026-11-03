@@ -1,5 +1,5 @@
 {
-  "title": "Bring Your Own Device",
+  "title": "Devices at school",
   "hero": "/images/term-dates-banner.jpg",
   "bannerHeight": "450px",
   "date": "2025-09-06 12:24:00+12:00",

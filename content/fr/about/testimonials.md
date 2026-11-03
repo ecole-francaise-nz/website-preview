@@ -1,5 +1,5 @@
 {
-  "title": "Témoignages",
+  "title": "Paroles de familles",
   "hero": "/images/chp2-banner.jpg",
   "bannerHeight": "450px",
   "toc": true

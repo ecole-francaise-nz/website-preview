@@ -1,5 +1,5 @@
 {
-  "title": "Enrol your child",
+  "title": "How to enrol",
   "hero": "/images/efia-maison1.jpg",
   "bannerHeight": "450px",
   "description": "Welcoming families of every nationality and every level of French.",
@@ -31,4 +31,4 @@ If you have any questions, please contact us by email at [contact@ecole-francais
 
 ## Getting ready
 
-Explore [costs and supplies](/admissions/costs/), [frequently asked questions](/about/faq/), and information for [international students](/international-students/).
+Explore [costs and supplies](/admissions/costs/), [FAQs](/about/faq/), and information for [International students](/international-students/).

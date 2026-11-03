@@ -1,5 +1,5 @@
 {
-  "title": "Les atouts du bilinguisme",
+  "title": "Bilinguisme",
   "hero": "/images/bilinguism-banner.jpg",
   "bannerHeight": "450px",
   "toc": true

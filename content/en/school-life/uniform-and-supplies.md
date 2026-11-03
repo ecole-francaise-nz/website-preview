@@ -4,7 +4,7 @@
   "cards": [
     {
       "title": "School uniform",
-      "description": "Browse summer, winter, PE and rainwear photos.",
+      "description": "Browse summer, winter, physical education and rainwear photos.",
       "url": "/school-life/school-uniform/",
       "image": "/images/uniforms/summer2.jpg"
     },

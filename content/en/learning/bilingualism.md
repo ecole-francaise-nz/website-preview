@@ -1,5 +1,5 @@
 {
-  "title": "The Advantages of Bilingualism",
+  "title": "Bilingual learning",
   "hero": "/images/bilinguism-banner.jpg",
   "bannerHeight": "450px",
   "toc": true

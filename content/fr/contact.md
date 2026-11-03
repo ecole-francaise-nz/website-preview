@@ -1,5 +1,5 @@
 {
-  "title": "Contact",
+  "title": "Contactez-nous",
   "hero": "/images/efia-maison1.jpg",
   "bannerHeight": "450px",
   "design": "contact",

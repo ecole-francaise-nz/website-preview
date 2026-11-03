@@ -1,26 +1,20 @@
 {
-  "title": "Apprendre à l’EFIA",
+  "title": "Pédagogie",
   "description": "Deux langues, de nouvelles perspectives. Le programme français enrichi par la vie en Nouvelle-Zélande.",
   "eyebrow": "Grandir avec curiosité",
   "cards": [
     {
-      "title": "Notre programme",
+      "title": "Programme",
       "description": "Comprendre les cycles et les correspondances de niveaux.",
       "url": "/fr/learning/french-curriculum/"
     },
     {
-      "title": "Apprendre en deux langues",
+      "title": "Bilinguisme",
       "description": "Découvrez la place du français et de l’anglais dans les apprentissages.",
       "url": "/fr/learning/bilingualism/"
     },
     {
-      "title": "Dans la classe",
-      "description": "Nos enseignants présentent leur programme.",
-      "url": "/fr/learning/teachers-present-our-programme/",
-      "image": "/images/efia-teacher.jpg"
-    },
-    {
-      "title": "Homologation et AEFE",
+      "title": "Homologation AEFE",
       "description": "Notre place dans le réseau de l’enseignement français.",
       "url": "/fr/learning/aefe/"
     },
@@ -30,12 +24,19 @@
       "url": "/fr/sports/"
     },
     {
+      "title": "Dans la classe",
+      "description": "Nos enseignants présentent leur programme.",
+      "url": "/fr/learning/teachers-present-our-programme/",
+      "image": "/images/efia-teacher.jpg"
+    },
+    {
       "title": "Ressources pédagogiques",
       "description": "Des ressources utiles pour accompagner les apprentissages.",
       "url": "/fr/learning/additional-resources/"
     }
   ],
-  "design": "hub"
+  "design": "hub",
+  "see_also": []
 }
 
 ## Notre approche

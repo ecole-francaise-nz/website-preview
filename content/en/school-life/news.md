@@ -1,5 +1,5 @@
 +++
-title = 'News'
+title = "News & newsletters"
 design = 'news'
 hero = "/images/chp2-banner.jpg"
 bannerHeight = "450px"

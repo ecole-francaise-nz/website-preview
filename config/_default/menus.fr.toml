@@ -1,11 +1,11 @@
 [[main]]
-name = "Notre \u00e9cole"
+name = "Notre école"
 identifier = "nav0"
 url = "/fr/about/"
 weight = 100
 
 [[main]]
-name = "Notre \u00e9quipe"
+name = "Notre équipe"
 parent = "nav0"
 url = "/fr/about/team/"
 weight = 1
@@ -29,7 +29,7 @@ url = "/fr/about/governance/"
 weight = 4
 
 [[main]]
-name = "P\u00e9dagogie"
+name = "Pédagogie"
 identifier = "nav1"
 url = "/fr/learning/"
 weight = 200
@@ -53,7 +53,7 @@ url = "/fr/learning/aefe/"
 weight = 3
 
 [[main]]
-name = "Activit\u00e9s et sport"
+name = "Activités et sport"
 parent = "nav1"
 url = "/fr/sports/"
 weight = 4
@@ -83,7 +83,7 @@ url = "/fr/school-life/uniform-and-supplies/"
 weight = 3
 
 [[main]]
-name = "Avant et apr\u00e8s l\u2019\u00e9cole"
+name = "Avant et après l’école"
 parent = "nav2"
 url = "/fr/school-life/before-and-after-school/"
 weight = 4
@@ -101,49 +101,85 @@ url = "/fr/admissions/"
 weight = 400
 
 [[main]]
-name = "Comment s\u2019inscrire"
+name = "Comment s’inscrire"
 parent = "nav3"
 url = "/fr/enrolment/"
 weight = 1
 
 [[main]]
-name = "\u00c9l\u00e8ves internationaux"
+name = "Élèves internationaux"
 parent = "nav3"
 url = "/fr/international-students/"
 weight = 2
 
 [[main]]
-name = "Co\u00fbts et pr\u00e9paration"
+name = "Coûts et préparation"
 parent = "nav3"
 url = "/fr/admissions/costs/"
 weight = 3
 
 [[main]]
-name = "Questions fr\u00e9quentes"
+name = "Questions fréquentes"
 parent = "nav3"
 url = "/fr/about/faq/"
 weight = 4
 
 [[main]]
-name = "Communaut\u00e9"
+name = "Communauté"
 identifier = "nav4"
 url = "/fr/community/"
 weight = 500
 
 [[main]]
-name = "Actualit\u00e9s et lettres d\u2019information"
+name = "Actualités et lettres d’information"
 parent = "nav4"
 url = "/fr/school-life/news/"
 weight = 1
 
 [[main]]
-name = "Alliance Fran\u00e7aise"
+name = "Alliance Française"
 parent = "nav4"
 url = "/fr/school-life/afa-membership/"
 weight = 2
 
 [[main]]
-name = "Soutenir notre \u00e9cole"
+name = "Soutenir notre école"
 parent = "nav4"
 url = "/fr/school-life/donations/"
 weight = 3
+
+[[main]]
+name = "Paroles de familles"
+parent = "nav0"
+url = "/fr/about/testimonials/"
+weight = 5
+
+[[main]]
+name = "Enviroschool"
+parent = "nav0"
+url = "/fr/about/enviroschool/"
+weight = 6
+
+[[main]]
+name = "Nous rejoindre"
+parent = "nav0"
+url = "/fr/recruitment/"
+weight = 7
+
+[[main]]
+name = "Dans la classe"
+parent = "nav1"
+url = "/fr/learning/teachers-present-our-programme/"
+weight = 5
+
+[[main]]
+name = "Ressources pédagogiques"
+parent = "nav1"
+url = "/fr/learning/additional-resources/"
+weight = 6
+
+[[main]]
+name = "Programmes de vacances"
+parent = "nav2"
+url = "/fr/school-life/children-holiday-programme/"
+weight = 6

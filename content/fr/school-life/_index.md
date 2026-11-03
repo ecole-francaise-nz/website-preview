@@ -1,5 +1,5 @@
 {
-  "title": "Informations parents",
+  "title": "Parents",
   "description": "Tout pour préparer la journée d’école, organiser le trimestre et accompagner votre enfant.",
   "eyebrow": "Le quotidien, simplement",
   "cards": [
@@ -7,6 +7,11 @@
       "title": "Calendrier et horaires",
       "description": "Trimestres, vacances et horaires en un coup d’œil.",
       "url": "/fr/school-life/term-dates-and-school-times/"
+    },
+    {
+      "url": "/fr/school-life/school-uniform/",
+      "description": "Les tenues de l’école, en images. Choisissez une photo pour l’agrandir.",
+      "title": "Uniforme scolaire"
     },
     {
       "title": "Uniforme et fournitures",
@@ -20,20 +25,22 @@
       "url": "/fr/school-life/before-and-after-school/"
     },
     {
-      "title": "Programmes de vacances",
-      "description": "Des activités pour les enfants pendant les vacances.",
-      "url": "/fr/school-life/children-holiday-programme/"
-    },
-    {
       "title": "Politiques et accompagnement",
       "description": "Politiques, documents importants et démarches en cas de difficulté.",
       "url": "/fr/school-life/policies-and-procedures/"
     },
     {
-      "title": "Actualités et communauté",
+      "title": "Programmes de vacances",
+      "description": "Des activités pour les enfants pendant les vacances.",
+      "url": "/fr/school-life/children-holiday-programme/"
+    }
+  ],
+  "design": "hub",
+  "see_also": [
+    {
+      "title": "Communauté",
       "description": "Gardez le lien avec la vie de l’école et de la communauté.",
       "url": "/fr/community/"
     }
-  ],
-  "design": "hub"
+  ]
 }

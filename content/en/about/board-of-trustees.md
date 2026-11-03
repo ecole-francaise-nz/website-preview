@@ -1,5 +1,5 @@
 +++
-title = 'Board of Trustees'
+title = "Board of trustees"
 hero = "/images/policies-banner.jpg"
 bannerHeight = "450px"
 date = 2025-01-11T12:24:00+12:00

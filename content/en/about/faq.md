@@ -1,5 +1,5 @@
 {
-  "title": "Frequently Asked Questions",
+  "title": "FAQs",
   "hero": "/images/efia-teacher.jpg",
   "bannerHeight": "450px",
   "date": "2024-05-09 09:47:33+12:00",

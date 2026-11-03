@@ -4,11 +4,6 @@
   "eyebrow": "Welcome to EFIA",
   "cards": [
     {
-      "title": "Vision & values",
-      "description": "The ideas that guide our school and our community.",
-      "url": "/about/vision-and-values/"
-    },
-    {
       "title": "Meet our team",
       "description": "Get to know the people supporting your child.",
       "url": "/about/team/",
@@ -21,14 +16,19 @@
       "image": "/images/efia-maison1.jpg"
     },
     {
-      "title": "Family stories",
-      "description": "Hear from parents about life at EFIA.",
-      "url": "/about/testimonials/"
+      "title": "Vision & values",
+      "description": "The ideas that guide our school and our community.",
+      "url": "/about/vision-and-values/"
     },
     {
       "title": "Governance & reports",
       "description": "Our board, school plans, reports and inspections.",
       "url": "/about/governance/"
+    },
+    {
+      "title": "Family stories",
+      "description": "Hear from parents about life at EFIA.",
+      "url": "/about/testimonials/"
     },
     {
       "title": "Enviroschool",
@@ -41,5 +41,6 @@
       "url": "/recruitment/"
     }
   ],
-  "design": "hub"
+  "design": "hub",
+  "see_also": []
 }

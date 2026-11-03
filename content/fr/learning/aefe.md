@@ -1,5 +1,5 @@
 +++
-title = 'Établissement partenaire AEFE'
+title = "Homologation AEFE"
 hideBannerTitle = true
 hero = "/images/aefe-banner2.jpg"
 bannerHeight = "450px"

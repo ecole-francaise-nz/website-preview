@@ -1,5 +1,5 @@
 {
-  "title": "Testimonials",
+  "title": "Family stories",
   "hero": "/images/chp2-banner.jpg",
   "bannerHeight": "450px",
   "toc": true

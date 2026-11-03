@@ -19,12 +19,15 @@
       "url": "/admissions/costs/"
     },
     {
-      "title": "Your questions answered",
+      "title": "FAQs",
       "description": "Find answers about languages, learning and school life.",
       "url": "/about/faq/"
-    },
+    }
+  ],
+  "design": "hub",
+  "see_also": [
     {
-      "title": "Meet the school",
+      "title": "Our campus",
       "description": "Explore our campus in Remuera.",
       "url": "/about/premises/",
       "image": "/images/efia-maison1.jpg"
@@ -34,6 +37,5 @@
       "description": "Get in touch with the school team.",
       "url": "/contact/"
     }
-  ],
-  "design": "hub"
+  ]
 }

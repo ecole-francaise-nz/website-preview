@@ -1,5 +1,5 @@
 {
-  "title": "The French Curriculum",
+  "title": "Curriculum",
   "hero": "/images/french-curriculum-banner.jpg",
   "bannerHeight": "450px",
   "description": "The French curriculum is taught in French and English, enriched by New Zealand’s context and teaching approaches.",

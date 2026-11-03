@@ -44,7 +44,7 @@
       ]
     },
     {
-      "title": "EPS",
+      "title": "Éducation physique et sportive",
       "id": "pe",
       "images": [
         {

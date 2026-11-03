@@ -1,5 +1,5 @@
 +++
-title = "Vision & valeurs"
+title = "Vision et valeurs"
 date = 2024-05-09T09:47:42+12:00
 hero = "/images/efia-banner.jpg"
 bannerHeight = "450px"

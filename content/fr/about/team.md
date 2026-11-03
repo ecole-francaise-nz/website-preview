@@ -5,40 +5,94 @@
   "date": "2024-05-09 09:47:33+12:00",
   "design": "team",
   "description": "Des parcours variés, une même passion pour apprendre et faire grandir.",
-  "people": [
+  "groups": [
     {
-      "name": "Élodie R",
-      "role": "Directrice par intérim & enseignante",
-      "image": "team/elodie-r.jpg",
-      "intro": "Un parcours en éducation, en activité physique et en accompagnement des élèves.",
-      "portrait": "elodie-r"
+      "id": "teachers",
+      "title": "Enseignants",
+      "people": [
+        {
+          "name": "Élodie Rodriguez",
+          "role": "Directrice par intérim",
+          "image": "team/elodie-r.jpg",
+          "intro": "Un parcours en éducation, en activité physique et en accompagnement des élèves.",
+          "portrait": "elodie-r"
+        },
+        {
+          "name": "Paul B.",
+          "role": "Enseignant",
+          "image": "team/paul-b.jpg",
+          "intro": "Une passion pour les sciences, les langues et la transmission du savoir.",
+          "portrait": "paul-b"
+        },
+        {
+          "name": "Makbule K.",
+          "role": "Enseignante",
+          "image": "team/makbule-k.jpg",
+          "intro": "L’amour des langues et une approche inclusive des apprentissages.",
+          "portrait": "makbule-k"
+        },
+        {
+          "name": "Ilona K.",
+          "role": "Enseignante",
+          "image": "team/ilona-k.jpg",
+          "intro": "Une expérience internationale et une attention au développement de chaque enfant.",
+          "portrait": "ilona-k"
+        },
+        {
+          "name": "Mathilde B.",
+          "role": "Enseignante",
+          "initials": "MB"
+        },
+        {
+          "name": "Sarah C.",
+          "role": "Enseignante",
+          "initials": "SC"
+        },
+        {
+          "name": "Codie K.",
+          "role": "Enseignante",
+          "initials": "CK"
+        }
+      ]
     },
     {
-      "name": "Paul B",
-      "role": "Professeur",
-      "image": "team/paul-b.jpg",
-      "intro": "Une passion pour les sciences, les langues et la transmission du savoir.",
-      "portrait": "paul-b"
+      "id": "teacher-aides",
+      "title": "Aides-enseignants",
+      "people": [
+        {
+          "name": "Antoine C.",
+          "role": "Aide-enseignant",
+          "initials": "AC"
+        },
+        {
+          "name": "Alice B.",
+          "role": "Aide-enseignante",
+          "initials": "AB"
+        }
+      ]
     },
     {
-      "name": "Makbule K",
-      "role": "Enseignante",
-      "image": "team/makbule-k.jpg",
-      "intro": "L’amour des langues et une approche inclusive des apprentissages.",
-      "portrait": "makbule-k"
+      "id": "fle",
+      "title": "Français langue étrangère (FLE)",
+      "people": [
+        {
+          "name": "Anne-Sophie L.",
+          "role": "Enseignante de FLE",
+          "initials": "AL",
+          "intro": "Alliance Française Auckland"
+        }
+      ]
     },
     {
-      "name": "Ilona K",
-      "role": "Enseignante",
-      "image": "team/ilona-k.jpg",
-      "intro": "Une expérience internationale et une attention au développement de chaque enfant.",
-      "portrait": "ilona-k"
-    },
-    {
-      "name": "Codie K",
-      "role": "Enseignante",
-      "intro": "Nouvelle enseignante à l’EFIA.",
-      "initials": "CK"
+      "id": "administration",
+      "title": "Administration",
+      "people": [
+        {
+          "name": "Victoire P.",
+          "role": "Agente administrative",
+          "initials": "VP"
+        }
+      ]
     }
   ]
 }

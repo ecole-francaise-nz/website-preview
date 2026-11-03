@@ -1,5 +1,5 @@
 {
-  "title": "Le programme français",
+  "title": "Programme",
   "hero": "/images/french-curriculum-banner.jpg",
   "bannerHeight": "450px",
   "description": "Le programme français, enseigné en français et en anglais, est enrichi par le contexte et les approches pédagogiques de la Nouvelle-Zélande.",

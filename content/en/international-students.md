@@ -1,5 +1,5 @@
 {
-  "title": "International Students",
+  "title": "International students",
   "hero": "/images/efia-maison1.jpg",
   "bannerHeight": "450px",
   "toc": true
@@ -48,7 +48,7 @@ Please consult the Refund Policy (Schedule Three) of the [International Student 
 
 * Please refer to the [Code](https://www2.nzqa.govt.nz/assets/Tertiary/The-Code/Guidelines-for-Code-Signatory-Schools.pdf).
 * The right to instruction from a suitably qualified tutor/teacher/instructor: all our teachers are certified either by the French Ministry of Education or the NZ Ministry of Education.
-* Information and advice about relevant school policies: please consult our [Policies and Procedures](/school-life/policies-and-procedures).
+* Information and advice about relevant school policies: please consult our [Policies & support](/school-life/policies-and-procedures).
 * Our Code of conduct is available in the [International Student Enrolment Contract – May 2025](/en/documents/international/efia-international-student-enrolment-contract-may-2025.pdf) and the [Behaviour management plan](/en/documents/school-life/behaviour-management-procedure-v1-23-01-2025.pdf).
 
 ## School life at EFIA for an international student

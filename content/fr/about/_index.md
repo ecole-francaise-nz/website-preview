@@ -4,11 +4,6 @@
   "eyebrow": "Bienvenue à l’EFIA",
   "cards": [
     {
-      "title": "Notre vision et nos valeurs",
-      "description": "Les convictions qui guident notre école et notre communauté.",
-      "url": "/fr/about/vision-and-values/"
-    },
-    {
       "title": "Notre équipe",
       "description": "Rencontrez les personnes qui accompagnent votre enfant.",
       "url": "/fr/about/team/",
@@ -21,14 +16,19 @@
       "image": "/images/efia-maison1.jpg"
     },
     {
-      "title": "Paroles de familles",
-      "description": "Les parents racontent leur expérience à l’EFIA.",
-      "url": "/fr/about/testimonials/"
+      "title": "Vision et valeurs",
+      "description": "Les convictions qui guident notre école et notre communauté.",
+      "url": "/fr/about/vision-and-values/"
     },
     {
       "title": "Gouvernance et rapports",
       "description": "Notre conseil, nos projets, nos rapports et inspections.",
       "url": "/fr/about/governance/"
+    },
+    {
+      "title": "Paroles de familles",
+      "description": "Les parents racontent leur expérience à l’EFIA.",
+      "url": "/fr/about/testimonials/"
     },
     {
       "title": "Enviroschool",
@@ -41,5 +41,6 @@
       "url": "/fr/recruitment/"
     }
   ],
-  "design": "hub"
+  "design": "hub",
+  "see_also": []
 }

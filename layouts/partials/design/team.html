@@ -1,5 +1,8 @@
-<div class="team-grid">
-  {{ range .Params.people }}
+{{ range .Params.groups }}
+<section class="team-group" aria-labelledby="team-{{ .id }}">
+  <h2 class="team-group-title" id="team-{{ .id }}">{{ .title }}</h2>
+  <div class="team-grid">
+  {{ range .people }}
     <article class="person-card">
       {{ if .image }}
         {{ $portrait := resources.Get .image }}
@@ -11,10 +14,16 @@
       {{ end }}
       <div class="person-copy">
         <p class="eyebrow">{{ .role }}</p>
-        <h2>{{ .name }}</h2>
-        <p>{{ .intro }}</p>
+        <h3>{{ .name }}</h3>
+        {{ with .intro }}<p>{{ . }}</p>{{ end }}
       </div>
     </article>
   {{ end }}
-</div>
+  </div>
+</section>
+{{ end }}
+{{ $boardURL := "/about/board-of-trustees/" | relLangURL }}
+<section class="team-board">
+  <a class="team-board-link" href="{{ $boardURL }}"><h2>{{ partial "link-title.html" (dict "site" .Site "url" $boardURL "title" "Board of trustees") }} <span aria-hidden="true">→</span></h2></a>
+</section>
 <article class="prose hub-detail">{{ .Content }}</article>

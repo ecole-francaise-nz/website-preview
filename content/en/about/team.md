@@ -5,40 +5,94 @@
   "date": "2024-05-09 09:47:33+12:00",
   "design": "team",
   "description": "Different backgrounds. A shared passion for helping children learn and grow.",
-  "people": [
+  "groups": [
     {
-      "name": "Élodie R",
-      "role": "Acting Principal & teacher",
-      "image": "team/elodie-r.jpg",
-      "intro": "A background in education, physical activity and classroom leadership.",
-      "portrait": "elodie-r"
+      "id": "teachers",
+      "title": "Teachers",
+      "people": [
+        {
+          "name": "Élodie Rodriguez",
+          "role": "Acting Principal",
+          "image": "team/elodie-r.jpg",
+          "intro": "A background in education, physical activity and classroom leadership.",
+          "portrait": "elodie-r"
+        },
+        {
+          "name": "Paul B.",
+          "role": "Teacher",
+          "image": "team/paul-b.jpg",
+          "intro": "A passion for science, language and sharing knowledge.",
+          "portrait": "paul-b"
+        },
+        {
+          "name": "Makbule K.",
+          "role": "Teacher",
+          "image": "team/makbule-k.jpg",
+          "intro": "A love of languages and an inclusive approach to learning.",
+          "portrait": "makbule-k"
+        },
+        {
+          "name": "Ilona K.",
+          "role": "Teacher",
+          "image": "team/ilona-k.jpg",
+          "intro": "International teaching experience and a focus on each child’s development.",
+          "portrait": "ilona-k"
+        },
+        {
+          "name": "Mathilde B.",
+          "role": "Teacher",
+          "initials": "MB"
+        },
+        {
+          "name": "Sarah C.",
+          "role": "Teacher",
+          "initials": "SC"
+        },
+        {
+          "name": "Codie K.",
+          "role": "Teacher",
+          "initials": "CK"
+        }
+      ]
     },
     {
-      "name": "Paul B",
-      "role": "Teacher",
-      "image": "team/paul-b.jpg",
-      "intro": "A passion for science, language and sharing knowledge.",
-      "portrait": "paul-b"
+      "id": "teacher-aides",
+      "title": "Teacher aides",
+      "people": [
+        {
+          "name": "Antoine C.",
+          "role": "Teacher aide",
+          "initials": "AC"
+        },
+        {
+          "name": "Alice B.",
+          "role": "Teacher aide",
+          "initials": "AB"
+        }
+      ]
     },
     {
-      "name": "Makbule K",
-      "role": "Teacher",
-      "image": "team/makbule-k.jpg",
-      "intro": "A love of languages and an inclusive approach to learning.",
-      "portrait": "makbule-k"
+      "id": "fle",
+      "title": "French as a Foreign Language (FLE)",
+      "people": [
+        {
+          "name": "Anne-Sophie L.",
+          "role": "FLE teacher",
+          "initials": "AL",
+          "intro": "Alliance Française Auckland"
+        }
+      ]
     },
     {
-      "name": "Ilona K",
-      "role": "Teacher",
-      "image": "team/ilona-k.jpg",
-      "intro": "International teaching experience and a focus on each child’s development.",
-      "portrait": "ilona-k"
-    },
-    {
-      "name": "Codie K",
-      "role": "Teacher",
-      "intro": "A new teacher at EFIA.",
-      "initials": "CK"
+      "id": "administration",
+      "title": "Admin officer",
+      "people": [
+        {
+          "name": "Victoire P.",
+          "role": "Admin officer",
+          "initials": "VP"
+        }
+      ]
     }
   ]
 }

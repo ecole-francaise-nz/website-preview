@@ -1,10 +1,10 @@
 {
-  "title": "Learning at EFIA",
+  "title": "Learning",
   "description": "Two languages. New perspectives. The French curriculum, enriched by life in New Zealand.",
   "eyebrow": "Growing curious minds",
   "cards": [
     {
-      "title": "Our curriculum",
+      "title": "Curriculum",
       "description": "Understand the learning stages and French–NZ year levels.",
       "url": "/learning/french-curriculum/"
     },
@@ -12,12 +12,6 @@
       "title": "Bilingual learning",
       "description": "Discover the place of French and English in your child’s education.",
       "url": "/learning/bilingualism/"
-    },
-    {
-      "title": "Inside the classroom",
-      "description": "Our teachers introduce their programme.",
-      "url": "/learning/teachers-present-our-programme/",
-      "image": "/images/efia-teacher.jpg"
     },
     {
       "title": "AEFE accreditation",
@@ -30,12 +24,19 @@
       "url": "/sports/"
     },
     {
+      "title": "Inside the classroom",
+      "description": "Our teachers introduce their programme.",
+      "url": "/learning/teachers-present-our-programme/",
+      "image": "/images/efia-teacher.jpg"
+    },
+    {
       "title": "Learning resources",
       "description": "Useful resources to support learning.",
       "url": "/learning/additional-resources/"
     }
   ],
-  "design": "hub"
+  "design": "hub",
+  "see_also": []
 }
 
 ## Our approach

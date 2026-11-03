@@ -1,5 +1,5 @@
 {
-  "title": "Politiques et procédures",
+  "title": "Politiques et accompagnement",
   "hero": "/images/policies-banner.jpg",
   "bannerHeight": "450px",
   "date": "2025-01-11 12:24:00+12:00",

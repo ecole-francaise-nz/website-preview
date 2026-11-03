@@ -1,5 +1,5 @@
 {
-  "title": "Inscrire votre enfant",
+  "title": "Comment s’inscrire",
   "hero": "/images/efia-maison1.jpg",
   "bannerHeight": "450px",
   "description": "Bienvenue aux familles de toutes nationalités et de tous niveaux de français.",

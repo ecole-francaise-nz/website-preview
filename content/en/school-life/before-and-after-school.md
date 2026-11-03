@@ -1,5 +1,5 @@
 +++
-title = 'Before- and After-School'
+title = "Before & after school"
 hero = "/images/after-school-activities-banner.jpg"
 bannerHeight = "450px"
 date = 2025-01-11T12:24:00+12:00

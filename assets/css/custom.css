@@ -1,12 +1,12 @@
 :root {
-  --ink:#17352f;
-  --navy:#12394b;
-  --blue:#12546e;
+  --ink:#232d48;
+  --navy:#272e68;
+  --blue:#3b4d8d;
   --red:#ad443b;
   --paper:#fcfbf7;
   --cream:#f0eee5;
   --line:#dedfd6;
-  --muted:#5c6d69;
+  --muted:#626b80;
   --serif:Georgia,'Times New Roman',serif;
   --radius:6px;
 }
@@ -16,7 +16,7 @@
 .newsletter-intro h2 {font-family:var(--serif);font-size:clamp(2rem,4vw,3.4rem);font-weight:400;margin:.4rem 0 1rem;}
 .newsletter-intro .text-link {justify-self:end;margin-bottom:1.2rem;}
 .newsletter-feature {display:grid;grid-template-columns:minmax(220px,.85fr) 1.3fr;background:var(--cream);border:1px solid var(--line);border-radius:var(--radius);overflow:hidden;margin-bottom:3.5rem;}
-.newsletter-cover {display:flex;justify-content:center;align-items:center;background:#e3e7df;padding:2rem;}
+.newsletter-cover {display:flex;justify-content:center;align-items:center;background:#e4e7ef;padding:2rem;}
 .newsletter-cover img {width:100%;max-width:260px;height:auto;box-shadow:0 10px 24px #17352f26;transform:rotate(-2deg);transition:transform .2s;}
 .newsletter-cover:hover img {transform:rotate(0);}
 .newsletter-feature-copy {align-self:center;padding:3rem;}
@@ -177,9 +177,9 @@ section[id] {
 }
 
 .button-light:hover {
-  background:#e3e9dd;
+  background:#e5e9f3;
   color:var(--navy);
-  border-color:#e3e9dd;
+  border-color:#e5e9f3;
 }
 
 .button-small {
@@ -269,19 +269,32 @@ section[id] {
   text-decoration:none;
 }
 
-.brand>span {
-  font-family:var(--serif);
-  font-size:1.25rem;
-  line-height:1.25;
+.brand-wordmark {
+  display:flex;
+  flex-direction:column;
+  align-items:center;
+  font-family:'Arial Black','Avenir Next',Arial,sans-serif;
+  font-weight:900;
+  font-style:normal;
+  text-transform:uppercase;
+  line-height:1.12;
+  white-space:nowrap;
 }
 
-.brand>span>span {
-  display:block;
-  font-family:'Avenir Next',Avenir,sans-serif;
-  font-size:.61rem;
-  letter-spacing:.08em;
-  margin-top:.35rem;
+.brand-name {
+  color:#10069f;
+  font-size:1.04rem;
+  letter-spacing:.015em;
 }
+
+.brand-international,.brand-auckland {
+  color:#da0023;
+  font-size:.76rem;
+  letter-spacing:.14em;
+}
+
+.brand-international {margin-top:.14rem;}
+.brand-auckland {letter-spacing:.25em;}
 
 .brand img {
   object-fit:contain;
@@ -331,7 +344,7 @@ section[id] {
   min-width:245px;
   background:white;
   border:1px solid var(--line);
-  box-shadow:0 16px 35px #12394b12;
+  box-shadow:0 16px 35px #272e6812;
   border-radius:6px;
   padding:.65rem;
   z-index:20;
@@ -617,7 +630,7 @@ section[id] {
   grid-template-columns:1fr 1fr;
   gap:4rem;
   padding:3.5rem;
-  background:#e9eee8;
+  background:#e9ecf4;
   border-radius:var(--radius);
 }
 
@@ -635,14 +648,14 @@ section[id] {
   align-items:center;
   gap:1rem;
   text-decoration:none;
-  border-bottom:1px solid #bfcfc6;
+  border-bottom:1px solid #c7cfe2;
   padding:1.25rem 0;
   color:var(--ink);
   font-size:.97rem;
 }
 
 .quick-links a:first-child {
-  border-top:1px solid #bfcfc6;
+  border-top:1px solid #c7cfe2;
 }
 
 .quick-links a:hover {
@@ -793,7 +806,7 @@ section[id] {
 
 .feature-card:hover {
   transform:translateY(-4px);
-  box-shadow:0 10px 24px #12394b0d;
+  box-shadow:0 10px 24px #272e680d;
   color:var(--ink);
 }
 
@@ -841,7 +854,7 @@ section[id] {
   display:inline-block;
   font:600 .62rem/1.4 'Avenir Next',Avenir,sans-serif;
   letter-spacing:.04em;
-  background:#e9eee8;
+  background:#e9ecf4;
   color:var(--muted);
   border-radius:3px;
   padding:2px 5px;
@@ -1011,7 +1024,7 @@ section[id] {
   display:flex;
   align-items:center;
   justify-content:space-between;
-  background:#e9eee8;
+  background:#e9ecf4;
   padding:1.5rem 2rem;
   gap:1.5rem;
   border-radius:var(--radius);
@@ -1165,8 +1178,15 @@ section[id] {
   display:grid;
   grid-template-columns:repeat(2,1fr);
   gap:1.5rem;
-  align-items:start;
+  align-items:stretch;
 }
+
+.team-group {margin-bottom:3rem;}
+.team-group-title {font-family:var(--serif);font-size:2rem;font-weight:400;margin:0 0 1.5rem;}
+.team-board {margin:0 0 3rem;border-block:1px solid var(--line);}
+.team-board-link {display:block;padding:1.5rem 0;color:var(--blue);text-decoration:none;}
+.team-board-link h2 {display:flex;justify-content:space-between;gap:1rem;font-size:1.4rem;font-weight:500;margin:0;}
+.team-board-link:hover h2 {text-decoration:underline;}
 
 .person-card {
   display:flex;
@@ -1205,7 +1225,7 @@ section[id] {
 
 .person-copy { min-width:0; }
 .person-copy .eyebrow { margin-bottom:.4rem; }
-.person-copy h2 { font-size:1.7rem; margin-bottom:.6rem; }
+.person-copy h3 { font-size:1.7rem; margin:0 0 .6rem; }
 .person-copy>p:not(.eyebrow) { font-size:.9rem; color:var(--muted); margin:0; }
 
 .portrait-elodie-r img { width:190%; left:-34%; top:-8%; }
@@ -1307,19 +1327,6 @@ details[open] summary {
   color:#24583d;
 }
 
-.term-detail {
-  padding:1rem 0;
-  border-bottom:1px solid var(--line);
-}
-
-.term-detail summary {
-  color:var(--ink);
-}
-
-.term-detail .prose {
-  font-size:.9rem;
-}
-
 .calendar-heading {
   display:flex;
   align-items:center;
@@ -1345,13 +1352,13 @@ details[open] summary {
   margin:auto;
   border:0;
   border-radius:8px;
-  background:#102e3b;
+  background:#19234e;
   color:white;
   padding:1rem 1.5rem;
 }
 
 .lightbox::backdrop {
-  background:#061822e8;
+  background:#0d1535e8;
 }
 
 .lightbox[open] {
@@ -1611,12 +1618,9 @@ details[open] summary {
     width:48px;
     height:48px;
   }
-  .brand>span {
-    font-size:1.05rem;
-  }
-  .brand>span>span {
-    font-size:.53rem;
-  }
+  .brand-name {font-size:.88rem;}
+  .brand-international,.brand-auckland {font-size:.65rem;}
+  .brand {gap:.5rem;}
   .header-main {
     min-height:84px;
   }
@@ -1813,7 +1817,7 @@ details[open] summary {
   }
   .person-card { padding:1.2rem; gap:1rem; }
   .person-portrait { flex-basis:64px; width:64px; height:64px; }
-  .person-copy h2 { font-size:1.5rem; }
+  .person-copy h3 { font-size:1.5rem; }
   .faq-item summary {
     font-size:.95rem;
   }
@@ -1863,7 +1867,7 @@ details[open] summary {
   .lightbox-prev,.lightbox-next {
     position:absolute;
     bottom:0;
-    background:#102e3be6!important;
+    background:#19234ee6!important;
     z-index:1;
   }
   .lightbox-prev {
@@ -1878,9 +1882,8 @@ details[open] summary {
 }
 
 @media(max-width:380px) {
-  .brand>span {
-    font-size:.9rem;
-  }
+  .brand-name {font-size:.76rem;}
+  .brand-international,.brand-auckland {font-size:.56rem;}
   .brand img {
     width:40px;
     height:40px;
@@ -1941,3 +1944,20 @@ details[open] summary {
 main :target { outline: 2px solid #d5aa57; outline-offset: 5px; }
 
 .staff-preview-banner { background: #fff1c5; color: #48360b; text-align: center; padding: .65rem 1rem; font-size: .9rem; border-bottom: 1px solid #e6cd82; }
+
+/* Keep full-width reading passages comfortable, and short/narrow text ragged. */
+@media(min-width:960px) {
+  .prose p {text-align:justify;hyphens:auto;}
+}
+.utility-bar-home>.shell {justify-content:flex-end;}
+.hub-see-also {margin-top:3rem;padding-top:1.75rem;border-top:1px solid var(--line);}
+.hub-see-also h2 {font-size:1.25rem;font-weight:500;margin:0 0 1rem;}
+.hub-see-also ul {list-style:none;padding:0;margin:0;display:grid;gap:1rem;}
+.hub-see-also a {font-weight:600;}
+.hub-see-also p {font-size:.9rem;color:var(--muted);margin:.2rem 0 0;}
+.calendar-holidays-title {font-family:var(--serif);font-size:1.6rem;font-weight:400;color:var(--muted);margin-top:2.5rem;}
+.calendar-holiday-label {font-size:1rem;font-weight:500;margin:1.75rem 0 .5rem;}
+.holiday-table {margin-top:.75rem;}
+.holiday-table td,.holiday-table th {vertical-align:top;}
+.holiday-table th[scope=row] {font-weight:500;}
+@media(max-width:960px) {.header-main {gap:1rem;}}

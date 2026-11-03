@@ -1,5 +1,5 @@
 +++
-title = 'AEFE Partner School'
+title = "AEFE accreditation"
 hideBannerTitle = true
 hero = "/images/aefe-banner2.jpg"
 bannerHeight = "450px"

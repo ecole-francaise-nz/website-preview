@@ -44,7 +44,7 @@
       ]
     },
     {
-      "title": "PE",
+      "title": "Physical Education",
       "id": "pe",
       "images": [
         {
