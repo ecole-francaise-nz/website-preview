@@ -12,7 +12,22 @@
 }
 
 /* Newsletters: a featured cover followed by a year-by-year reading timeline. */
-.newsletter-intro {display:grid;grid-template-columns:1.6fr 1fr;gap:3rem;align-items:end;margin-bottom:2.5rem;}
+.news-social {margin-bottom:3.5rem;padding-bottom:2.5rem;border-bottom:1px solid var(--line);}
+.news-social h2 {font-family:var(--serif);font-size:clamp(1.8rem,3vw,2.5rem);font-weight:400;margin:0 0 1rem;}
+.news-social>p {max-width:48rem;color:var(--muted);}
+.news-social-featured {display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:1.25rem;margin:1.5rem 0;}
+.news-social-card {display:flex;align-items:center;gap:1rem;padding:1.5rem;border:1px solid var(--line);border-radius:var(--radius);background:var(--cream);color:var(--navy);text-decoration:none;}
+.news-social-card:hover {border-color:var(--blue);background:var(--paper);}
+.news-social-icon {display:grid;place-items:center;flex:0 0 48px;height:48px;border-radius:50%;background:var(--navy);color:white;}
+.news-social-icon svg {width:25px;height:25px;}
+.news-social-card strong {display:block;font-size:1.3rem;margin-bottom:.25rem;}
+.news-social-card strong+span {display:block;font-size:.9rem;color:var(--muted);}
+.news-social-card>span:last-child {margin-left:auto;}
+.news-social-more,.news-social-more ul {display:flex;flex-wrap:wrap;gap:.7rem 1.3rem;align-items:center;font-size:.9rem;}
+.news-social-more>span {color:var(--muted);}
+.news-social-more ul {list-style:none;margin:0;padding:0;}
+@media (max-width:760px) {.news-social-featured {grid-template-columns:1fr;}.news-social-card {padding:1.2rem;}}
+.newsletter-intro {max-width:48rem;margin-bottom:2.5rem;}
 .newsletter-intro h2 {font-family:var(--serif);font-size:clamp(2rem,4vw,3.4rem);font-weight:400;margin:.4rem 0 1rem;}
 .newsletter-intro .text-link {justify-self:end;margin-bottom:1.2rem;}
 .newsletter-feature {display:grid;grid-template-columns:minmax(220px,.85fr) 1.3fr;background:var(--cream);border:1px solid var(--line);border-radius:var(--radius);overflow:hidden;margin-bottom:3.5rem;}

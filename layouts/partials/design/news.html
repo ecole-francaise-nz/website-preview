@@ -1,11 +1,31 @@
 {{ $fr := eq .Lang "fr" }}
 {{ $months := slice "January" "February" "March" "April" "May" "June" "July" "August" "September" "October" "November" "December" }}
 {{ if $fr }}{{ $months = slice "Janvier" "Février" "Mars" "Avril" "Mai" "Juin" "Juillet" "Août" "Septembre" "Octobre" "Novembre" "Décembre" }}{{ end }}
+<section class="news-social" aria-labelledby="news-social-title">
+  <h2 id="news-social-title">{{ if $fr }}Suivez-nous sur les réseaux sociaux{{ else }}Follow us on social media{{ end }}</h2>
+  <p>{{ if $fr }}Retrouvez les nouvelles de l’école, nos photos et les moments partagés sur nos deux réseaux les plus actifs.{{ else }}Find school updates, photos and shared moments on our two most active channels.{{ end }}</p>
+  <div class="news-social-featured">
+    <a class="news-social-card" href="https://www.facebook.com/profile.php?id=61573552256605">
+      <span class="news-social-icon" aria-hidden="true"><svg viewBox="0 0 24 24" fill="currentColor"><path d="M14 21v-8h3l.5-4H14V7c0-1 .3-2 2-2h2V1.5A23 23 0 0 0 15 1c-3 0-5 2-5 5v3H7v4h3v8z"/></svg></span>
+      <span><strong>Facebook</strong><span>{{ if $fr }}Les nouvelles de notre communauté{{ else }}Updates from our school community{{ end }}</span></span><span aria-hidden="true">↗</span>
+    </a>
+    <a class="news-social-card" href="https://www.instagram.com/ecolefrancaiseauckland/">
+      <span class="news-social-icon" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><rect x="3" y="3" width="18" height="18" rx="5"/><circle cx="12" cy="12" r="4"/><circle cx="17.5" cy="6.5" r="1" fill="currentColor" stroke="none"/></svg></span>
+      <span><strong>Instagram</strong><span>{{ if $fr }}La vie de l’école en images{{ else }}School life in pictures{{ end }}</span></span><span aria-hidden="true">↗</span>
+    </a>
+  </div>
+  <div class="news-social-more"><span>{{ if $fr }}Retrouvez-nous aussi sur{{ else }}You can also find us on{{ end }}</span>
+    <ul>
+      <li><a href="https://www.linkedin.com/company/%C3%A9cole-fran%C3%A7aise-internationale-auckland/posts/?feedView=all">LinkedIn ↗</a></li>
+      <li><a href="https://www.xiaohongshu.com/user/profile/675f409c000000001801caf1">RedNote ↗</a></li>
+      <li><a href="https://www.youtube.com/playlist?list=PLe6nvxISfBOmAkX1Pmd_LnbkJWE3yhDQZ">YouTube ↗</a></li>
+    </ul>
+  </div>
+</section>
 <div class="newsletter-intro">
   <div><p class="eyebrow">{{ if $fr }}Le fil de notre école{{ else }}The school, month by month{{ end }}</p>
   <h2>{{ if $fr }}La gazette de l’EFIA{{ else }}The EFIA newsletter{{ end }}</h2>
   <p>{{ if $fr }}Les découvertes en classe, les sorties et les moments partagés : retrouvez la vie de notre communauté dans nos lettres d’information.{{ else }}Classroom discoveries, school trips and shared moments: follow our community through our school newsletters.{{ end }}</p></div>
-  <a class="text-link" href="https://www.facebook.com/profile.php?id=61573552256605">{{ if $fr }}Les nouvelles au quotidien sur Facebook{{ else }}Day-to-day updates on Facebook{{ end }} ↗</a>
 </div>
 {{ $issues := hugo.Data.newsletters | default slice }}
 {{ with $issues }}
