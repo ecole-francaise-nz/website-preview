@@ -1,4 +1,4 @@
-{{ if .Site.Params.staffPreview }}<div class="staff-preview-banner">{{ if eq .Lang "fr" }}Version de démonstration pour l’équipe — ce site n’est pas la version officielle en ligne.{{ else }}Staff review preview — this is not the live school website.{{ end }}</div>{{ end }}
+{{ if .Site.Params.staffPreview }}<div class="staff-preview-banner" id="staff-preview-banner"><span>{{ if eq .Lang "fr" }}Version de démonstration pour l’équipe — ce site n’est pas la version officielle en ligne.{{ else }}Staff review preview — this is not the live school website.{{ end }}</span><button class="preview-dismiss" type="button" aria-label="{{ if eq .Lang "fr" }}Masquer l’avertissement de démonstration{{ else }}Dismiss preview notice{{ end }}" hidden><span aria-hidden="true">×</span></button></div>{{ end }}
 {{ $ui := index hugo.Data.interface .Lang }}
 <a class="skip-link" href="#main-content">{{ $ui.skip }}</a>
 <header class="site-header">
@@ -9,7 +9,7 @@
     <nav id="main-navigation" class="main-navigation" aria-label="{{ $ui.menu }}">
       {{ range $i, $item := .Site.Menus.main }}<div class="nav-group"><div class="nav-label"><a href="{{ .URL }}" {{ if eq $.RelPermalink .URL }}aria-current="page"{{ end }}>{{ partial "link-title.html" (dict "site" $.Site "url" .URL "title" .Name) }}</a>{{ if .HasChildren }}<button type="button" class="submenu-toggle" aria-label="{{ partial "link-title.html" (dict "site" $.Site "url" .URL "title" .Name) }} — {{ $ui.menu }}" aria-controls="submenu-{{ $i }}" aria-expanded="false"><span aria-hidden="true">⌄</span></button>{{ end }}</div>{{ if .HasChildren }}<div class="submenu" id="submenu-{{ $i }}" hidden><a class="submenu-overview" href="{{ .URL }}">{{ $ui.overview }} <span aria-hidden="true">→</span></a>{{ range .Children }}<a href="{{ .URL }}">{{ partial "link-title.html" (dict "site" $.Site "url" .URL "title" .Name) }}</a>{{ end }}</div>{{ end }}</div>{{ end }}
       <a class="button button-small" href="{{ "/enrolment/" | relLangURL }}">{{ $ui.enrol }} <span aria-hidden="true">↗</span></a>
-      <button class="search-toggle" id="site-search-toggle" type="button" aria-controls="site-search-panel" aria-expanded="false" aria-label="{{ $ui.search }}"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><circle cx="10.5" cy="10.5" r="6.5"/><path d="m16 16 5 5"/></svg></button>
+      <button class="search-toggle" id="site-search-toggle" type="button" aria-controls="site-search-panel" aria-expanded="false" aria-label="{{ $ui.search }}" aria-keyshortcuts="/ Meta+K Control+K" title="{{ $ui.search }} (/ · ⌘K · Ctrl+K)"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><circle cx="10.5" cy="10.5" r="6.5"/><path d="m16 16 5 5"/></svg></button>
     </nav>
   </div>
   <div id="site-search-panel" data-index="{{ .Site.Home.RelPermalink }}index.json" hidden>

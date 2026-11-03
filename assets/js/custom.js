@@ -1,19 +1,47 @@
 (() => {
   'use strict';
+  const previewBanner = document.getElementById('staff-preview-banner');
+  if (previewBanner) {
+    const dismiss = previewBanner.querySelector('.preview-dismiss');
+    try { previewBanner.hidden = sessionStorage.getItem('efia-preview-dismissed') === 'true'; } catch (_) {}
+    dismiss.hidden = false;
+    dismiss.addEventListener('click', () => {
+      previewBanner.hidden = true;
+      try { sessionStorage.setItem('efia-preview-dismissed', 'true'); } catch (_) {}
+      document.querySelector('.brand')?.focus({preventScroll: true});
+    });
+  }
   const searchToggle = document.getElementById('site-search-toggle');
   const searchPanel = document.getElementById('site-search-panel');
   const searchInput = document.getElementById('site-search-query');
   if (searchToggle && searchPanel) {
-    searchToggle.addEventListener('click', () => {
-      searchPanel.hidden = !searchPanel.hidden;
-      searchToggle.setAttribute('aria-expanded', String(!searchPanel.hidden));
-      if (!searchPanel.hidden) searchInput.focus();
+    const setSearchOpen = open => {
+      searchPanel.hidden = !open;
+      searchToggle.setAttribute('aria-expanded', String(open));
+      if (open) searchInput.focus();
+    };
+    searchToggle.addEventListener('click', () => setSearchOpen(searchPanel.hidden));
+    document.addEventListener('keydown', event => {
+      if (event.defaultPrevented || event.isComposing || event.repeat || event.altKey || document.querySelector('dialog[open]')) return;
+      // Leave text entry, form controls and embedded editors to their own keys.
+      const target = event.target;
+      if (target.isContentEditable || target.closest?.('input, textarea, select, [role="textbox"], [role="combobox"]')) return;
+      const slash = event.key === '/' && !event.metaKey && !event.ctrlKey;
+      const commandK = event.key.toLowerCase() === 'k' && (event.metaKey || event.ctrlKey) && !event.shiftKey;
+      if (!slash && !commandK) return;
+      event.preventDefault();
+      setSearchOpen(true);
     });
     searchPanel.addEventListener('keydown', event => {
       if (event.key === 'Escape') {
-        searchPanel.hidden = true;
-        searchToggle.setAttribute('aria-expanded', 'false');
-        searchToggle.focus();
+        setSearchOpen(false);
+        const focusTarget = searchToggle.getClientRects().length ? searchToggle : document.querySelector('.menu-toggle');
+        focusTarget?.focus();
+      }
+    });
+    document.addEventListener('click', event => {
+      if (!searchPanel.hidden && !searchPanel.contains(event.target) && !searchToggle.contains(event.target)) {
+        setSearchOpen(false);
       }
     });
   }

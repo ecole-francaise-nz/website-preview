@@ -90,7 +90,10 @@ const SiteSearch = (() => {
   input.addEventListener('input', () => { ++generation; clearTimeout(timer); timer = setTimeout(update, 100); });
   panel.querySelector('form').addEventListener('submit', event => { event.preventDefault(); clearTimeout(timer); update(); });
   input.addEventListener('focus', () => { load().catch(() => {}); });
-  results.addEventListener('click', () => {
+  results.addEventListener('click', event => {
+    const link = event.target.closest('a');
+    // Keep the list available when opening several results in other tabs/windows.
+    if (!link || event.defaultPrevented || event.button !== 0 || event.metaKey || event.ctrlKey || event.shiftKey || event.altKey || (link.target && link.target !== '_self') || link.hasAttribute('download')) return;
     panel.hidden = true;
     document.getElementById('site-search-toggle').setAttribute('aria-expanded', 'false');
   });

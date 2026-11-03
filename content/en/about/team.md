@@ -46,7 +46,8 @@
         {
           "name": "Sarah C.",
           "role": "Teacher",
-          "initials": "SC"
+          "initials": "SC",
+          "intro": "My approach is rooted in self-confidence and a positive sense of community. I prioritise art and creativity as tools for self-expression, personal growth and learning."
         },
         {
           "name": "Codie K.",
@@ -85,12 +86,23 @@
     },
     {
       "id": "administration",
-      "title": "Admin officer",
+      "title": "Admin",
       "people": [
         {
           "name": "Victoire P.",
           "role": "Admin officer",
           "initials": "VP"
+        }
+      ]
+    },
+    {
+      "id": "it",
+      "title": "I.T.",
+      "people": [
+        {
+          "name": "Aurélien G.",
+          "role": "I.T. manager",
+          "initials": "AG"
         }
       ]
     }

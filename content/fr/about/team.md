@@ -46,7 +46,8 @@
         {
           "name": "Sarah C.",
           "role": "Enseignante",
-          "initials": "SC"
+          "initials": "SC",
+          "intro": "Mon approche repose sur la confiance individuelle et le bien-vivre ensemble. Je privilégie l’art et la créativité comme des leviers d’expression, d’épanouissement et d’apprentissage."
         },
         {
           "name": "Codie K.",
@@ -91,6 +92,17 @@
           "name": "Victoire P.",
           "role": "Agente administrative",
           "initials": "VP"
+        }
+      ]
+    },
+    {
+      "id": "it",
+      "title": "Informatique",
+      "people": [
+        {
+          "name": "Aurélien G.",
+          "role": "Responsable informatique",
+          "initials": "AG"
         }
       ]
     }

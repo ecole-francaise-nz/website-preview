@@ -1943,7 +1943,9 @@ details[open] summary {
 [id^="search-"], main :target { scroll-margin-top: 2rem; }
 main :target { outline: 2px solid #d5aa57; outline-offset: 5px; }
 
-.staff-preview-banner { background: #fff1c5; color: #48360b; text-align: center; padding: .65rem 1rem; font-size: .9rem; border-bottom: 1px solid #e6cd82; }
+.staff-preview-banner { position:relative; background:#fff1c5; color:#48360b; text-align:center; padding:.65rem 3.5rem; font-size:.9rem; border-bottom:1px solid #e6cd82; }
+.preview-dismiss { position:absolute; right:.6rem; top:50%; transform:translateY(-50%); display:grid; place-items:center; width:2rem; height:2rem; padding:0; border:0; border-radius:4px; background:transparent; color:inherit; font:1.6rem/1 sans-serif; cursor:pointer; }
+.preview-dismiss:hover { background:#48360b14; }
 
 /* Keep full-width reading passages comfortable, and short/narrow text ragged. */
 @media(min-width:960px) {
