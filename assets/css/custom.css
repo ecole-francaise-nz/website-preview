@@ -1251,7 +1251,7 @@ section[id] {
 .person-copy h3 { font-size:1.7rem; margin:0 0 .6rem; }
 .person-copy>p:not(.eyebrow) { font-size:.9rem; color:var(--muted); margin:0; }
 
-.portrait-elodie-r img { width:190%; left:-34%; top:-8%; }
+.portrait-elodie-r img { width:150%; left:-18%; top:-4%; }
 .portrait-paul-b img { width:400%; left:-100%; top:-40%; }
 .portrait-makbule-k img { width:103%; left:-5%; top:-12%; }
 .portrait-ilona-k img { width:239%; left:-46%; top:-13%; }

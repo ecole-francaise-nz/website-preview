@@ -14,7 +14,7 @@
           "name": "Élodie Rodriguez",
           "role": "Acting Principal",
           "image": "team/elodie-r.jpg",
-          "intro": "A background in education, physical activity and classroom leadership.",
+          "intro": "Kia ora and welcome. As Acting Principal, I combine a strong background in educational leadership with a lifelong passion for physical education. I am passionate about blending the academic richness of the French curriculum with the strengths of the New Zealand framework, drawing on my specific expertise in social and emotional learning. I am deeply committed to inclusive education, working collaboratively with our whānau and staff to ensure every child is supported to thrive both academically and personally.",
           "portrait": "elodie-r"
         },
         {

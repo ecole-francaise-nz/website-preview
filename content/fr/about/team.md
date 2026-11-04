@@ -14,7 +14,7 @@
           "name": "Élodie Rodriguez",
           "role": "Directrice par intérim",
           "image": "team/elodie-r.jpg",
-          "intro": "Un parcours en éducation, en activité physique et en accompagnement des élèves.",
+          "intro": "Kia ora et bienvenue. En tant que directrice par intérim, je m’appuie sur une solide expérience en direction d’établissement et sur une passion de toujours pour l’éducation physique. J’ai à cœur d’allier la richesse du programme français aux atouts du cadre éducatif néo-zélandais, en m’appuyant sur mon expertise en apprentissage social et émotionnel. Profondément attachée à une éducation inclusive, je travaille en étroite collaboration avec nos whānau (familles) et notre équipe pour que chaque enfant bénéficie de l’accompagnement nécessaire pour s’épanouir, tant sur le plan scolaire que personnel.",
           "portrait": "elodie-r"
         },
         {
